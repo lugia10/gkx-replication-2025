@@ -192,3 +192,17 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# --- Custom Ignores for this Project ---
+
+# Ignore data files
+*.csv
+*.parquet
+/data/
+
+# Ignore Python virtual environment folder
+/gkx_env/
+
+# Ignore system files
+.DS_Store
